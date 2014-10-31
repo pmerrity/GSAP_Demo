@@ -1,0 +1,83 @@
+body {
+	background: snow;
+	font-family: 'Lato', sans-serif;
+	letter-spacing: .75px;
+}
+
+.box {
+	height: 60px;
+	position: relative;
+	width: 60px;
+}
+
+#redbox {
+	background: red;
+}
+
+#orangebox {
+	background: orange;
+}
+
+
+#yellowgreenbox {
+	background: gold;
+	border-bottom: 15px solid limegreen;
+}
+
+#bluebox {
+	background: turquoise;
+}
+
+.btn {
+	border: 2px solid snow;
+	border-radius: 70px;
+	color: snow;
+	padding: 5px 0;
+	position: fixed;
+	right: 20px;
+	text-align: center;
+	width: 100px;
+}
+	.btn:hover {
+		background: snow !important;
+		cursor: pointer;
+	}
+
+#rBtn {
+	background: tomato;
+	top: 20px;
+}
+
+	#rBtn:hover {
+		border: 2px solid tomato;
+		color: tomato;
+	}
+
+#oBtn {
+	background: orange;
+	border-color: snow;
+	top: 60px;
+}
+	#oBtn:hover {
+		border-color: orange;
+		color: orange;
+	}
+
+#ygBtn {
+	background: gold;
+	right: 20px;
+	top: 100px;
+}
+	#ygBtn:hover {
+		border-color: limegreen;
+		color: limegreen;
+	}
+
+#bBtn {
+	background: turquoise;
+	top: 140px;
+}
+	#bBtn:hover {
+		border-color: turquoise;
+		color: turquoise;
+	}
