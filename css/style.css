@@ -1,31 +1,82 @@
 body {
-	background: snow;
+	background: steelblue;
 	font-family: 'Lato', sans-serif;
 	letter-spacing: .75px;
+
 }
 
+#controls {
+	width: 800px;
+}
+	.controls {
+		border: 2px dotted mintcream;
+		border-radius: 70px;
+		color: mintcream;
+		cursor: pointer;
+		display: inline-block;
+		margin-right: 25px;
+		padding: 5px 0;
+		width: 100px;
+		text-align: center;
+	}
+		.controls:hover {
+			background: mintcream !important;
+		}
+
+/*
 .box {
 	height: 60px;
 	position: relative;
 	width: 60px;
 }
+*/
 
-#redbox {
+#play {
 	background: red;
 }
+	#play:hover {
+		border: 2px dotted red;
+		color: red;
+	}
 
-#orangebox {
+#pause {
 	background: orange;
 }
+	#pause:hover {
+		border: 2px dotted orange;
+		color: orange;
+	}
 
 
-#yellowgreenbox {
+#restart {
 	background: gold;
-	border-bottom: 15px solid limegreen;
+	/*	border-bottom: 15px solid limegreen;*/
 }
+	#restart:hover {
+		border: 2px dotted gold;
+		color: gold;
+	}
 
-#bluebox {
+#resume {
+	background: limegreen;
+	}
+	#resume:hover {
+		border: 2px dotted limegreen;
+		color: limegreen;
+	}
+
+#reverse {
 	background: turquoise;
+	}
+		#reverse:hover {
+			border: 2px dotted turquoise;
+			color: turquoise;
+		}
+#slider {
+	height: 20px;
+	width: 500px;
+	margin: 10px;
+	background: darkorchid;
 }
 
 .btn {
